@@ -5,87 +5,108 @@ This is the basic project for displaying all the Habits list Which is used to st
 
 
 
+# Functionality:
+1.You can delete and add new habits.
 
-## Screenshots
+2.You can monitor your progress throughout the last seven days, and the date will update on its own after that time.
 
-#### Habit Tracker Home Page
-![App Screenshot](https://snipboard.io/zntVEa.jpg)
+3.Your habit can be marked as Done, Notdone, or None.
 
-Home Page Where all the habits of today are displayed. There are three status
-such as none, done, not-done. By default status of any habit is set be not-done.
-You can update the status of habit by click on icon.
-
-#### Adding New Habit Task
-By Clicking on + (plus) button inside tabbar.
-![App Screenshot](https://snipboard.io/zHovE8.jpg)
-
-Enter the title of the habit and description for the habit. Once the habit added you will be redirected to Habit Page. 
-Where all the list of Habits will be displayed.
-
-#### View All The Habits
-![App Screenshot](https://snipboard.io/cGfMa1.jpg)
-In this Page You can view All the habits list. By Clicking on any particular habit yu can view the days and status of that particular habit and you can update status of that habit.
+4.It's incredibly helpful for your daily routine, and you may build a streak to demonstrate your level of dedication.
 
 
-#### View Previous days status of a habit
-![App Screenshot](https://snipboard.io/vf5Xrx.jpg)
-This page show the habits status days wise. It contain the list of total 7 days not more than that it will replace the previus days status for new days.
-You can see the ison  thums up show that the habit has done, the thums down action shows not done and the minus circle icon displays that the status of that habit is not done.
-## Tech Stack
+Hosted Link:https://habit-tracker-app-react-two.vercel.app/
 
-**Client:** React, Redux, TailwindCSS
+# folder structure
 
+![Screenshot (31)](https://github.com/Khanjamshed007/Habit-Tracker-App-React/assets/94047780/382ddcda-0ecc-4b54-912d-5f7d2926c370)
 
+# HomePage
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/niteenkum/habit-tracker
-```
-
-Go to the project directory
-
-```bash
-  cd habit-tracker
-```
-
-Install dependencies
-
-```bash
-  Yarn
-```
-
-Start the server
-
-```bash
-  yarn start
-
-  View on http://localhost:3000/
-```
+![Screenshot (26)](https://github.com/Khanjamshed007/Habit-Tracker-App-React/assets/94047780/4c799a49-4d3a-447a-a26d-0d20d2d8910d)
 
 
-# Folder Structure
+# Add Habit Page
 
-#### Component
-Contain all the components used in Project.
+![Screenshot (27)](https://github.com/Khanjamshed007/Habit-Tracker-App-React/assets/94047780/fc526b69-2061-4be2-b182-cdab3e021443)
 
-#### Pages
-Contain All the pages used in project like Today Habits List which is homepage,
- update page, add new habit page.
+![Screenshot (28)](https://github.com/Khanjamshed007/Habit-Tracker-App-React/assets/94047780/5c3c2f0e-7c4d-4b48-b570-baa8caa518fa)
 
-#### Hooks
+# Week veiw
 
-Contain useApiCall.ts Hook to call all the requests.
+![Screenshot (29)](https://github.com/Khanjamshed007/Habit-Tracker-App-React/assets/94047780/a587c3d0-682f-4b8f-bc03-d1259555a7f8)
 
-#### assests
-Contain all the images which is used for the project.
+# Delete habit
 
-#### redux
-Contain redux store, slices.
+![Screenshot (30)](https://github.com/Khanjamshed007/Habit-Tracker-App-React/assets/94047780/18e24c80-ddfc-4867-ba01-e683ce70daa1)
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png)
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
